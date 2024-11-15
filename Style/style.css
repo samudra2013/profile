@@ -415,7 +415,7 @@ footer .credit a {
 }
 
 /* Mobile Phone */
-@media (max-width: 415px) {
+@media (max-width: 450px) {
   html {
     font-size: 55%;
   }
