@@ -158,8 +158,8 @@ body {
 /* arrows */
 .arrows {
   position: absolute;
-  top: 80%;
-  right: 52%;
+  top: 85%;
+  right: 38%;
   z-index: 100;
   width: 300px;
   max-width: 30%;
@@ -167,6 +167,13 @@ body {
   gap: 10px;
   align-items: center;
 }
+
+#next {
+  margin-left: auto; /* Pindahkan tombol ke kanan */
+  position: absolute;
+  right: -220%; /* Tentukan posisi tombol next */
+}
+
 .arrows button {
   width: 40px;
   height: 40px;
@@ -179,6 +186,8 @@ body {
   transition: 0.5s;
   cursor: pointer;
 }
+
+
 .arrows button:hover {
   background-color: #fff;
   color: #000;
